@@ -9,7 +9,7 @@ namespace OrderViewer.Core.EntityLayer
     public class SalesOrderHeader
     {
         public Int32? SalesOrderId { get; set; }
-        public Byte? RevitionNumber { get; set; }
+        public Byte? RevisionNumber { get; set; }
         public DateTime? OrderDate { get; set; }
         public DateTime? DueDate { get; set; }
         public DateTime? ShipDate { get; set; }

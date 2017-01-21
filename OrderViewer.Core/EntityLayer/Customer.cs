@@ -15,6 +15,6 @@ namespace OrderViewer.Core.EntityLayer
         public Guid? Rowguid { get; set; }
         public DateTime? ModifiedDate { get; set; }
         public virtual Person PersonFk { get; set; }
-        public virtual Store StoreFK { get; set; }
+        public virtual Store StoreFk { get; set; }
     }
 }
